@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <style>
+        body {
+          background-image: url("1a8452e5f346ac75456adc6d79c352c6.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: center;
+          font-family: rancho;
+        }
+
+        h1 {
+          margin: 50px;
+          font-size: 65px;
+          color: rgb(155, 6, 6);
+        }
+
+        @font-face {
+          font-family: "myFont";
+          src: url("https://fonts.google.com/specimen/Rancho?selection.family=Rancho");
+        }
+
+        rancho {
+          font-family: "myFont"
+        }
+
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10px;
+          }
+
+        .button {
+          font-size: 27px;
+          height: 45px;
+          width: 160px;
+          display: block;
+          margin: auto;
+          font-family: rancho;
+          cursor: pointer;
+          background-color: floralwhite;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+        <img src="2000px-Tic_tac_toe.svg.png" alt="Tic Tac Toe" class="center">
+        <p><button type="button" id= "myButton" class="button">Start Game</button></p>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url("https://fonts.google.com/specimen/Rancho?selection.family=Rancho");
+}
+
+rancho {
+    font-family: "myFont"
+}
+
+body {
+    background-image: url("stock-vector-tic-tac-toe-game-seamless-pattern-red-and-blue-elements-on-white-background-475770505.jpg");
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    font-family: rancho, Arial, Helvetica, sans-serif;
+    font-size: 55px;
+}
+
+#canvas {
+    height: 600px;
+    width: 600px;
+    background-color: cornsilk;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    font-size: 37px;
+    height: 50px;
+    width: 170px;
+    float: right;
+    margin-right: 100px;
+    font-family: rancho;
+    cursor: pointer;
+    background-color: cornsilk;
+    border: 1px solid black;
+}
+
+

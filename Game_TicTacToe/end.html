@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <style>
+        body {
+            background-image: url("fundo-do-feriado-com-confetes-brilhantes_1048-2952.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+        @font-face {
+          font-family: "myFont";
+          src: url("https://fonts.google.com/specimen/Rancho?selection.family=Rancho");
+        }
+
+        rancho {
+          font-family: "myFont"
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 130px;
+        }
+        .button {
+            text-align: center;
+            font-size: 35px;
+            height: 50px;
+            width: 150px;
+            display: block;
+            color: darkgoldenrod;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            font-family: rancho;
+            background-color: cornsilk;
+            cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+      <div>
+        <img src="win-golden-glitter-background-banner-gold-vector-illustration-elements-layered-separately-vector-file-79668400.jpg" alt="YOU WIN!!!" class="center">
+        <p><button type="button" id= "myButton" class="button">Play Again</button></p>     
+      </div>
+      <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "index.html";
+        }
+    </script>
+    <!--<a href="index.html">Play Again</a>-->
+  </body>
+</html>
+
